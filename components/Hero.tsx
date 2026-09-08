@@ -10,34 +10,39 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
         <div>
           <h1 className="font-display text-4xl leading-tight font-semibold text-text sm:text-5xl">
-            Desenvolvimento humano que{" "}
-            <span className="text-primary italic">transforma</span>{" "}
-            organizações
+            As <span className="text-primary italic">Pessoas</span> fazem as
+            escolhas e constroem
           </h1>
 
+          <p className="mt-5 max-w-xl font-display text-xl text-text sm:text-2xl">
+            As Empresas vão muito além dos processos: elas são feitas de
+            Pessoas.
+          </p>
+
           <p className="mt-6 max-w-xl text-lg text-text-secondary">
-            Consultoria em psicologia organizacional voltada à saúde mental no
-            trabalho e ao desenvolvimento de lideranças e times — unindo
-            ciência, escuta ativa e resultados mensuráveis.
+            Por trás de todo grande resultado sustentável, existe um indivíduo
+            consciente que decidiu assumir o controle da própria trajetória.
+            Juntos estruturamos um caminho, mas para chegar lá, você deve
+            escolher IR.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
               href={whatsappLink(
-                "Olá! Gostaria de agendar um diagnóstico gratuito."
+                "Olá! Quero transformar minha trajetória com a IR DHO."
               )}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-primary-dark"
             >
               <MessageCircle size={18} />
-              Agende um diagnóstico gratuito
+              Quero Transformar Minha Trajetória
             </a>
             <a
               href="#servicos"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-border px-7 py-3.5 text-sm font-semibold text-primary transition-colors hover:bg-background-alt"
             >
-              Conheça os serviços
+              Conheça nossas vertentes
               <ArrowRight size={16} />
             </a>
           </div>
@@ -58,10 +63,10 @@ export default function Hero() {
 
           <div className="absolute -bottom-6 left-1/2 w-64 -translate-x-1/2 rounded-2xl border border-border bg-background px-5 py-4 text-center shadow-lg">
             <p className="font-display text-2xl font-semibold text-primary">
-              POT
+              CPF + CNPJ
             </p>
             <p className="text-xs text-text-secondary">
-              Abordagem em Psicologia Organizacional e do Trabalho
+              Atendimento a Pessoas e Desenvolvimento Organizacional
             </p>
           </div>
         </div>

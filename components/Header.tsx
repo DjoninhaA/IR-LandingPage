@@ -44,7 +44,7 @@ export default function Header() {
           href="#contato"
           className="hidden shrink-0 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold whitespace-nowrap text-white transition-colors hover:bg-primary-dark lg:inline-block"
         >
-          Agende uma conversa
+          Agendar Atendimento
         </a>
 
         <button
@@ -76,7 +76,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-accent px-5 py-2.5 text-center text-sm font-semibold text-white"
             >
-              Agende uma conversa
+              Agendar Atendimento
             </a>
           </nav>
         </div>

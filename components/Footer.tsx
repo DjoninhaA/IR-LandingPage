@@ -23,9 +23,12 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-white/70">
-              Consultoria em psicologia organizacional e do trabalho —
-              desenvolvimento de lideranças, saúde mental corporativa e
-              cultura de alta performance.
+              Desenvolvimento Humano e Organizacional — psicologia clínica,
+              protagonismo pessoal e integração entre saúde mental e
+              eficiência corporativa.
+            </p>
+            <p className="mt-3 max-w-sm text-sm text-white/70">
+              {siteConfig.contact.address}
             </p>
             <p className="mt-3 text-xs text-white/60">
               {siteConfig.responsavel.nome} · {siteConfig.responsavel.crp}

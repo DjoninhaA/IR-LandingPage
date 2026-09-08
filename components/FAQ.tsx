@@ -5,24 +5,24 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "Quais tipos de empresa vocês atendem?",
+    question: "A IR atende pessoas físicas ou apenas empresas?",
     answer:
-      "Atendemos empresas de diferentes portes e segmentos, de startups a organizações consolidadas, adaptando a abordagem à realidade de cada uma.",
+      "As duas vertentes. No atendimento a Pessoas (CPF) trabalhamos psicologia clínica e desenvolvimento humano; no atendimento Organizacional (CNPJ) atuamos com consultoria e assessoria estratégica para empresas.",
   },
   {
-    question: "Como funciona a primeira reunião/diagnóstico?",
+    question: "Como funciona o primeiro contato?",
     answer:
-      "A primeira conversa é gratuita e serve para entender o cenário da sua empresa, ouvir as principais dores e avaliar como podemos ajudar.",
+      "O primeiro contato serve para o diagnóstico: mapeamos com profundidade as necessidades do indivíduo ou da empresa antes de propor qualquer intervenção.",
   },
   {
     question: "Os atendimentos são presenciais ou online?",
     answer:
-      "Trabalhamos com ambos os formatos, de acordo com a necessidade e a localização da empresa.",
+      "Trabalhamos com ambos os formatos. O atendimento presencial acontece no Edifício ACIT, no centro de Toledo/PR.",
   },
   {
-    question: "Qual o prazo médio de um projeto de consultoria?",
+    question: "O que a IR entrega e o que fica sob responsabilidade do cliente?",
     answer:
-      "Varia conforme o escopo, mas a maioria dos projetos tem duração entre 2 e 6 meses, com etapas e entregas bem definidas.",
+      "Nós assumimos a responsabilidade técnica de entregar clareza e estruturação. A execução — a decisão de entrar em ação e sustentar a disciplina diária — permanece nas mãos de quem nos contrata.",
   },
   {
     question: "Vocês emitem contrato e nota fiscal?",

@@ -15,9 +15,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Psicologia Organizacional`,
+  title: `${siteConfig.name} | Psicologia Clínica e Organizacional`,
   description:
-    "Consultoria em psicologia organizacional e do trabalho: desenvolvimento de lideranças, saúde mental corporativa e cultura de alta performance, com Rafael Ita.",
+    "IR DHO — Desenvolvimento Humano e Organizacional em Toledo/PR. Psicologia clínica e desenvolvimento humano para pessoas (CPF) e consultoria em cultura, lideranças e NR-1 para empresas (CNPJ), com Rafael Ita.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

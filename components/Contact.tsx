@@ -14,7 +14,8 @@ export default function Contact() {
             Vamos conversar
           </h2>
           <p className="mt-4 text-text-secondary">
-            Fale diretamente pelos canais abaixo.
+            Agende um atendimento ou uma consultoria diretamente pelos canais
+            abaixo.
           </p>
         </div>
 

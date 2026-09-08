@@ -17,7 +17,9 @@ export const siteConfig = {
     whatsapp: "554520318026",
     whatsappDisplay: "(45) 2031-8026",
     email: "contato@irdesenvolvimento.com.br",
-    address: "Toledo, PR — atendimento presencial e online",
+    address:
+      "Edifício ACIT — Largo São Vicente de Paulo, nº 1333, Sala 106, Centro — Toledo/PR",
+    addressShort: "Toledo/PR — atendimento presencial e online",
   },
   social: {
     instagram: "https://www.instagram.com/irpsicologiadho",
@@ -25,8 +27,8 @@ export const siteConfig = {
   },
   nav: [
     { label: "Início", href: "#inicio" },
-    { label: "Sobre", href: "#sobre" },
-    { label: "Serviços", href: "#servicos" },
+    { label: "A IR DHO", href: "#sobre" },
+    { label: "Vertentes", href: "#servicos" },
     { label: "Metodologia", href: "#metodologia" },
     { label: "O Psicólogo", href: "#rafael" },
     { label: "Nosso Espaço", href: "#espaco" },
