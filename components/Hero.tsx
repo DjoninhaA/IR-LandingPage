@@ -10,8 +10,8 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
         <div>
           <h1 className="font-display text-4xl leading-tight font-semibold text-text sm:text-5xl">
-            Quero Transformar Minha Trajetória.{" "}
-            <span className="text-primary italic">EU escolho IR!</span>
+            As <span className="text-primary italic">Pessoas</span> fazem as
+            escolhas e constroem
           </h1>
 
           <p className="mt-5 max-w-xl font-display text-xl text-text sm:text-2xl">

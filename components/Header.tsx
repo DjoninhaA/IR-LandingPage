@@ -39,9 +39,10 @@ export default function Header() {
 
         <a
           href="#contato"
-          className="hidden shrink-0 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold whitespace-nowrap text-white transition-colors hover:bg-primary-dark lg:inline-block"
+          className="hidden shrink-0 rounded-full bg-accent px-5 py-2 text-center text-sm leading-tight font-semibold whitespace-nowrap text-white transition-colors hover:bg-primary-dark lg:inline-block"
         >
-          Agendar Atendimento
+          <span className="block">Quero Transformar Minha Trajetória.</span>
+          <span className="block">EU escolho IR!</span>
         </a>
 
         <button
@@ -73,7 +74,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-accent px-5 py-2.5 text-center text-sm font-semibold text-white"
             >
-              Agendar Atendimento
+              Quero Transformar Minha Trajetória. EU escolho IR!
             </a>
           </nav>
         </div>

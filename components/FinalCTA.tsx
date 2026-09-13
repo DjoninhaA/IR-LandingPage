@@ -24,7 +24,7 @@ export default function FinalCTA() {
             className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-primary transition-colors hover:bg-background-alt"
           >
             <MessageCircle size={18} />
-            IR para agendar Atendimento / Consultoria
+            Quero Transformar Minha Trajetória. EU escolho IR!
           </a>
           <a
             href={whatsappLink(
