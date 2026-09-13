@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GraduationCap, Quote } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import { LinkedinIcon } from "@/components/icons";
 import { siteConfig } from "@/lib/site-config";
 
@@ -57,14 +57,6 @@ export default function AboutRafael() {
               </li>
             ))}
           </ul>
-
-          <blockquote className="mt-8 border-l-2 border-accent pl-5">
-            <Quote className="mb-2 text-accent-light" size={22} />
-            <p className="font-display text-lg text-text italic">
-              Acredito que desenvolver pessoas é o caminho mais consistente
-              para transformar organizações.
-            </p>
-          </blockquote>
 
           <a
             href={siteConfig.social.linkedin}

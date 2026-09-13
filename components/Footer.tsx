@@ -24,14 +24,18 @@ export default function Footer() {
             </div>
             <p className="mt-4 max-w-sm text-sm text-white/70">
               Desenvolvimento Humano e Organizacional — psicologia clínica,
-              protagonismo pessoal e integração entre saúde mental e
-              eficiência corporativa.
+              protagonismo pessoal, integração entre saúde mental e
+              eficiência corporativa, além de estrutura completa para
+              sublocação de salas de atendimento.
             </p>
+            <div className="mt-4 text-sm">
+              <p className="font-semibold text-white">
+                {siteConfig.responsavel.nome}
+              </p>
+              <p className="text-white/70">{siteConfig.responsavel.crp}</p>
+            </div>
             <p className="mt-3 max-w-sm text-sm text-white/70">
               {siteConfig.contact.address}
-            </p>
-            <p className="mt-3 text-xs text-white/60">
-              {siteConfig.responsavel.nome} · {siteConfig.responsavel.crp}
             </p>
           </div>
 
@@ -100,7 +104,8 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-white"
             >
-              Desenvolvido por Moveonsistemas
+              Desenvolvido por{" "}
+              <span className="font-bold">Moveonsistemas</span>
             </a>
           </div>
         </div>

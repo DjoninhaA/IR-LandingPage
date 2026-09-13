@@ -5,7 +5,7 @@ export const siteConfig = {
   shortName: "IR",
   responsavel: {
     nome: "Rafael Henrique de Santana Ita",
-    crp: "CRP 08/05071",
+    crp: "CRP 08/47050",
     especialidade: "Psicologia Clínica & Inteligência Organizacional",
     formacao: [
       "Graduação em Psicologia pela PUCPR — campus Toledo",
@@ -32,6 +32,7 @@ export const siteConfig = {
     { label: "Metodologia", href: "#metodologia" },
     { label: "O Psicólogo", href: "#rafael" },
     { label: "Nosso Espaço", href: "#espaco" },
+    { label: "Sublocação", href: "#sublocacao" },
     { label: "Contato", href: "#contato" },
   ],
 };

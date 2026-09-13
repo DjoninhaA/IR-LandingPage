@@ -21,10 +21,7 @@ export default function Header() {
             priority
           />
           <span className="font-display text-lg leading-tight font-semibold text-primary">
-            
-            <span className="block text-[0.65rem] font-sans font-medium tracking-wide text-text-secondary uppercase">
-              Desenvolvimento Humano e Organizacional
-            </span>
+            DHO
           </span>
         </a>
 

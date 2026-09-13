@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import Methodology from "@/components/Methodology";
 import AboutRafael from "@/components/AboutRafael";
 import Space from "@/components/Space";
+import Sublocacao from "@/components/Sublocacao";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Contact from "@/components/Contact";
@@ -21,6 +22,7 @@ export default function Home() {
         <Methodology />
         <AboutRafael />
         <Space />
+        <Sublocacao />
         <FAQ />
         <FinalCTA />
         <Contact />
