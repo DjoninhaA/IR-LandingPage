@@ -4,10 +4,13 @@ import {
   Mountain,
   ShieldCheck,
   Sprout,
+  Briefcase,
   Compass,
+  Network,
   ScrollText,
   Users,
   BrainCircuit,
+  Rocket,
   User,
   Building2,
 } from "lucide-react";
@@ -18,37 +21,43 @@ const vertentes = [
     tag: "Atendimento a Pessoas (CPF)",
     title: "Psicologia Clínica e Desenvolvimento Humano",
     description:
-      "Atendimento personalizado para quem busca assumir o controle da própria vida. A IR DHO leva você exatamente onde você desejar IR.",
+      "Atendimento personalizado para quem busca assumir o controle da própria vida. A IR DHO entrega as ferramentas para você chegar exatamente onde você deseja chegar.",
     items: [
       {
         icon: HeartPulse,
         title: "Psicologia Clínica e Saúde Mental",
         description:
-          "Acolhimento técnico para o equilíbrio emocional e bem-estar individual.",
+          "Acolhimento terapêutico para o reprocessamento de traumas, desenvolvimento da inteligência emocional e conquista do bem-estar individual.",
       },
       {
         icon: TrendingUp,
         title: "Desempenho e Performance",
         description:
-          "Ferramentas para alcançar novos resultados positivos e potencializar capacidades.",
+          "Ferramentas comportamentais para potencializar capacidades, alcançar metas pessoais e otimizar resultados.",
       },
       {
         icon: Mountain,
         title: "Superação de Limitações",
         description:
-          "Suporte para enfrentar traumas, dificuldades e barreiras pessoais.",
+          "Suporte técnico para enfrentar traumas, ressignificar bloqueios e superar barreiras que impedem o seu avanço.",
       },
       {
         icon: ShieldCheck,
-        title: "Protagonismo e Responsabilidade",
+        title: "Protagonismo e Autonomia",
         description:
-          "Estímulo para tomar para si a responsabilidade de suas ações e das consequências advindas delas.",
+          "Estímulo para assumir o controle da própria história, com clareza nas tomadas de decisão e autorresponsabilidade.",
       },
       {
         icon: Sprout,
-        title: "Evolução Contínua",
+        title: "Evolução e Autoconhecimento",
         description:
-          "Espaço seguro para se tornar alguém melhor todos os dias, compreendendo a si mesmo além dos olhares e expectativas dos outros.",
+          "Espaço seguro para o desenvolvimento contínuo, tornando-se alguém melhor todos os dias, compreendendo a si mesmo além das expectativas externas.",
+      },
+      {
+        icon: Briefcase,
+        title: "Orientação Profissional e Carreira",
+        description:
+          "Mapeamento vocacional, PDI personalizado e estratégias práticas para direcionar ou transicionar sua trajetória com clareza.",
       },
     ],
   },
@@ -63,25 +72,37 @@ const vertentes = [
         icon: Compass,
         title: "Estruturação de Cultura Organizacional",
         description:
-          "Mapeamento e definição de Missão, Visão e Valores para alinhar a equipe.",
+          "Mapeamento e consolidação de Missão, Visão e Valores para alinhar a equipe, fortalecer a identidade corporativa e engajar a organização.",
+      },
+      {
+        icon: Network,
+        title: "Arquitetura de Cargos e Performance",
+        description:
+          "Descrição de cargos, planos de cargos e salários, trilhas de carreira e Planos de Desenvolvimento Individuais (PDI) para retenção de talentos.",
       },
       {
         icon: ScrollText,
-        title: "Regimento Interno e Normas (NR-1)",
+        title: "Governança, Processos e Conformidade",
         description:
-          "Garantia de segurança jurídica, conduta operacional e alinhamento de rotinas.",
+          "Regimento interno, POPs e adequação às NRs 1 e 17 (MTE), com foco em gestão de riscos psicossociais e segurança jurídica.",
       },
       {
         icon: Users,
         title: "Desenvolvimento de Lideranças",
         description:
-          "Formação de gestores e equipes focados na autonomia e no protagonismo.",
+          "Formação contínua de gestores e equipes com foco em autonomia, protagonismo e alta performance voltada a resultados.",
       },
       {
         icon: BrainCircuit,
-        title: "Integração de Saúde Mental e Produtividade",
+        title: "Saúde Mental e Produtividade",
         description:
-          "Soluções que alinham o bem-estar dos colaboradores aos resultados do negócio.",
+          "Soluções em Psicologia Organizacional para alinhar o bem-estar dos colaboradores ao desempenho e sustentabilidade do negócio.",
+      },
+      {
+        icon: Rocket,
+        title: "Desenvolvimento e Abertura Empresarial",
+        description:
+          "Suporte na estruturação do negócio desde a concepção: modelo de gestão, Contrato Social, formalização de CNPJ e alinhamento operacional.",
       },
     ],
   },

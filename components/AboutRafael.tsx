@@ -41,7 +41,9 @@ export default function AboutRafael() {
           <p className="mt-6 text-text-secondary">
             Atuação dividida entre o cuidado individual e o desenvolvimento
             das organizações, unindo psicologia clínica e inteligência
-            organizacional em cada projeto.
+            organizacional em cada projeto. Aos 42 anos, integra a maturidade
+            das vivências profissionais e pessoais como empreendedor,
+            trabalhador, Marido, Pai e Avô à prática científica da Psicologia.
           </p>
 
           <ul className="mt-6 space-y-3">

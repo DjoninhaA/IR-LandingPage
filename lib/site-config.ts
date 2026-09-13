@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "IR Desenvolvimento Humano e Organizacional",
   shortName: "IR",
   responsavel: {
-    nome: "Rafael Ita",
+    nome: "Rafael Henrique de Santana Ita",
     crp: "CRP 08/05071",
     especialidade: "Psicologia Clínica & Inteligência Organizacional",
     formacao: [

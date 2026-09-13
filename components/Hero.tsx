@@ -10,8 +10,8 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
         <div>
           <h1 className="font-display text-4xl leading-tight font-semibold text-text sm:text-5xl">
-            As <span className="text-primary italic">Pessoas</span> fazem as
-            escolhas e constroem
+            Quero Transformar Minha Trajetória.{" "}
+            <span className="text-primary italic">EU escolho IR!</span>
           </h1>
 
           <p className="mt-5 max-w-xl font-display text-xl text-text sm:text-2xl">
@@ -36,7 +36,7 @@ export default function Hero() {
               className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-primary-dark"
             >
               <MessageCircle size={18} />
-              Quero Transformar Minha Trajetória
+              Quero Transformar Minha Trajetória. EU escolho IR!
             </a>
             <a
               href="#servicos"
@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="absolute inset-0 rounded-[3rem] bg-background-alt" />
           <div className="relative flex aspect-square w-full max-w-sm items-center justify-center rounded-[3rem] border border-border bg-background p-12 shadow-xl shadow-primary/5">
             <Image
-              src="/logo-ir.jpg"
+              src="/Logo-CRP.jpg"
               alt="IR Desenvolvimento Humano e Organizacional"
               width={320}
               height={320}

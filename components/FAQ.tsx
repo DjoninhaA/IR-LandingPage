@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Vocês emitem contrato e nota fiscal?",
     answer:
-      "Sim. Todos os projetos são formalizados por contrato e emitimos nota fiscal para pessoa jurídica.",
+      "Sim. Todos os projetos, atendimentos e sublocação são formalizados por contrato, com emissão de nota fiscal tanto para Pessoa Física (CPF) quanto para Pessoa Jurídica (CNPJ).",
   },
 ];
 
