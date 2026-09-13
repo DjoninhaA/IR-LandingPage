@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { KeyRound, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/site-config";
 
 export default function FinalCTA() {
@@ -9,9 +9,10 @@ export default function FinalCTA() {
           Pronto para assumir a responsabilidade pelas suas escolhas e alcançar
           novos resultados?
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-white/80">
-          Juntos estruturamos um caminho, mas para chegar lá, você deve escolher
-          IR.
+        <p className="mx-auto mt-4 max-w-2xl text-white/80">
+          Seja para transformar sua vida, alavancar sua empresa ou construir o
+          seu legado em nosso espaço: juntos estruturamos o caminho, mas para
+          chegar lá, você deve escolher IR.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
           <a
@@ -23,13 +24,18 @@ export default function FinalCTA() {
             className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-primary transition-colors hover:bg-background-alt"
           >
             <MessageCircle size={18} />
-            Agendar um Atendimento / Consultoria
+            IR para agendar Atendimento / Consultoria
           </a>
           <a
-            href="#contato"
+            href={whatsappLink(
+              "Olá! Gostaria de saber mais sobre a sublocação de salas."
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
           >
-            Ver canais de contato
+            <KeyRound size={18} />
+            IR para Sublocar uma Sala
           </a>
         </div>
       </div>
