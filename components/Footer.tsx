@@ -102,10 +102,12 @@ export default function Footer() {
               href="https://www.moveonsistemas.com.br/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white"
+              className="group text-sm text-white/60 transition-colors hover:text-white/80"
             >
               Desenvolvido por{" "}
-              <span className="font-bold">Moveonsistemas</span>
+              <span className="font-semibold text-accent-light transition-colors group-hover:text-white">
+                MoveOn Sistemas
+              </span>
             </a>
           </div>
         </div>
