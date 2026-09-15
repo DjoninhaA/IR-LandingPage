@@ -30,7 +30,7 @@ export default function Footer() {
             </p>
             <div className="mt-4 text-sm">
               <p className="font-semibold text-white">
-                {siteConfig.responsavel.nome}
+                {siteConfig.responsavel.nomeCompleto}
               </p>
               <p className="text-white/70">{siteConfig.responsavel.crp}</p>
             </div>
