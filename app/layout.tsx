@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Fraunces } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { siteConfig } from "@/lib/site-config";
 import "./globals.css";
 
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-background text-text">
         {children}
       </body>
+      <GoogleAnalytics gaId="G-V63K8BBCBV" />
     </html>
   );
 }
